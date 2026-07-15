@@ -1,27 +1,27 @@
 ---
 author: FaMuLan
 pubDatetime: 2026-07-15T23:14:00Z
-modDatetime: 2026-07-15T23:14:00Z
 title: SiameseChess第二版原型
+slug: siamesechess-2nd-prototype
 featured: true
-draft: false
 tags:
   - release
   - game
-description: 了解该游戏的详情，游玩方法，以及渠道
----
+description: 了解该游戏的详情，游玩方法，以及渠道。
+---	
 
 虽然还未发行，不过新版可以在此处预览。
 
 ## 关于新版
 
-![Carnation](images/狗（17）.png)
+![Carnation](@/assets/images/siamesechess_prototype-2.6-cover.png)
 
 该版本着重于无障碍的布局，包含了文本转语音功能、辅助手势功能等内容。在此基础上增加了更多的音效，
 
 该版本还完善了有关“康乃馨”和“玉兰”两人的互动，两人都有对应的游戏模式。
 
 ## 下载地址
+
 | 平台 | 链接 | 备注 |
 | :--- | :--- | :--- |
 | Android | [SiameseChess-SecondPrototype-Android.apk](https://static.famulan.uk/siamesechess/SiameseChess-SecondPrototype-Android.apk) | 仅针对arm64处理器，经测试，Android平台（国产系统）无法正常调用系统内置TTS，后续预览版会探讨替代方案 |
