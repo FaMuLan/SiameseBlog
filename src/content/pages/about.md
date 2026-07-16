@@ -1,9 +1,26 @@
 ---
-title: "About"
-description: "This website, these games, these artworks, and those characters."
+title: "关于"
+description: "This website."
 ---
-
-A series about cats and dogs.
 
 ![Yulan](@/assets/images/storybook.png)
 
+## 关于网站
+
+有一个正式的网站，对于塑造个人形象会有很大的帮助。能够更方便地把所有创作内容全部收纳在一个平台内。
+
+### UK域名问题
+
+UK域名本身为英国国家域名。不过，如果各位对域名市场有了解，UK域名价格非常便宜，这也是选择该域名的直接原因。
+
+- 作为个人网站，选择非盈利组织（.org）、商业公司（.com）等域名不合适；
+- .cc也是地区域名，但该域名的争议性极大，容易留下不良印象；
+- 而剩下的小众域名（如.games等），通常价格都很昂贵。
+
+### 技术栈
+
+博客前端基于AstroPaper模板建立，挂载于Cloudflare Workers中。
+
+## 支持？
+
+目前暂不开放捐赠。
