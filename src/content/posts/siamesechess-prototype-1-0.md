@@ -12,11 +12,11 @@ tags:
 description: 国际象棋游戏最初的尝试
 ---	
 
+旧版本原型和现版本原型的内容差别较大，故单独列出以供玩家体验。
+
 ![Yulan](@/assets/images/siamesechess_prototype-1.0_cover.png)
 
-## 归档声明
-
-该版本已停止维护。
+## Table of Contents
 
 ## 游戏介绍
 
@@ -34,8 +34,10 @@ description: 国际象棋游戏最初的尝试
 
 游戏操作形式为第一人称点击冒险，鼠标点击或触屏点击能够互动的地方，以转换视角进行调查。想回退到上一个镜头，您可以使用鼠标滚轮滚动或者双指缩放手势，以实现返回操作。
 
+## 下载地址（prototype-1.0）
+
 | 平台 | 链接| 尺寸 | 备注 |
 | :--- | :--- | :--- | :--- |
-| Android | [SiameseChess-SecondPrototype-Android.apk](https://static.famulan.uk/siamesechess-1.0/SiameseChess-FirstPrototype-Android.apk) | 41.15MB | 仅针对arm64处理器，签名为debug |
-| Windows | [SiameseChess-SecondPrototype-Windows.zip](https://static.famulan.uk/siamesechess-1.0/SiameseChess-FirstPrototype-Windows.zip) | 38.66MB  | 仅针对x64处理器，未发现平台相关问题。 |
-| Web| [Web在线游玩](https://static.famulan.uk/siamesechess-1.0/index.html) | 75.57MB  | Web版本存在较多的功能限制以及性能问题，适合不方便下载软件的玩家。 |
+| Android | [SiameseChess-SecondPrototype-Android.apk](https://static.famulan.uk/siamesechess-1.0/SiameseChess-FirstPrototype-Android.apk) | 41.15 MB | 仅针对arm64处理器，签名为debug |
+| Windows | [SiameseChess-SecondPrototype-Windows.zip](https://static.famulan.uk/siamesechess-1.0/SiameseChess-FirstPrototype-Windows.zip) | 38.66 MB  | 仅针对x64处理器，未发现平台相关问题。 |
+| Web| [Web在线游玩](https://static.famulan.uk/siamesechess-1.0/index.html) | 75.57 MB  | Web版本存在较多的功能限制以及性能问题，适合不方便下载软件的玩家。 |

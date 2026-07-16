@@ -38,7 +38,7 @@ description: 国际象棋冒险游戏
 ### 预览版已知问题
 
 - 按键/手势控制在设置界面中无法控制数字滚动框和弹出框；
-- TTS不会播报文档内容，这项功能本身为长期工程，需要等待下一步处理。
+- TTS不会播报文档内容，这项功能本身为长期工程，需要等待下一步处理；
 - 经测试，Android平台（国产系统）无法正常调用系统内置TTS，后续预览版会探讨替代方案。
 
 ## 游戏说明
@@ -70,10 +70,10 @@ description: 国际象棋冒险游戏
 
 | 平台 | 链接 | 尺寸 | 备注 |
 | :--- | :--- | :--- | :--- |
-| Android | [SiameseChess-SecondPrototype-Android.apk](https://static.famulan.uk/siamesechess/SiameseChess-SecondPrototype-Android.apk)| 66.55MB | 仅针对arm64处理器。 |
-| Windows | [SiameseChess-SecondPrototype-Windows.zip](https://static.famulan.uk/siamesechess/SiameseChess-SecondPrototype-Windows.zip) | 54.58MB | 仅针对x64处理器。 |
-| Linux | [SiameseChess-SecondPrototype-Linux.zip](https://static.famulan.uk/siamesechess/SiameseChess-SecondPrototype-Linux.zip) | 45.87MB | 仅针对x64处理器，兼容性以Ubuntu为准。 |
-| Web | [Web在线游玩](https://static.famulan.uk/siamesechess/index.html) | 115.69MB | Web版本存在较多的功能限制以及性能问题，适合不方便下载软件的玩家。 |
+| Android | [SiameseChess-SecondPrototype-Android.apk](https://static.famulan.uk/siamesechess/SiameseChess-SecondPrototype-Android.apk)| 66.55 MB | 仅针对arm64处理器。 |
+| Windows | [SiameseChess-SecondPrototype-Windows.zip](https://static.famulan.uk/siamesechess/SiameseChess-SecondPrototype-Windows.zip) | 54.58 MB | 仅针对x64处理器。 |
+| Linux | [SiameseChess-SecondPrototype-Linux.zip](https://static.famulan.uk/siamesechess/SiameseChess-SecondPrototype-Linux.zip) | 45.87 MB | 仅针对x64处理器，兼容性以Ubuntu为准。 |
+| Web | [Web在线游玩](https://static.famulan.uk/siamesechess/index.html) | 115.69 MB | Web版本存在较多的功能限制以及性能问题，适合不方便下载软件的玩家。 |
 
 ## 致谢
 
