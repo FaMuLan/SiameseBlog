@@ -46,3 +46,9 @@ description: 虚拟钢琴
 | 平台 | 链接| 尺寸 | 备注 |
 | :--- | :--- | :--- | :--- |
 | Web | [Web在线游玩](https://static.famulan.uk/siamesepiano/index.html) | 51.38 MB  | 有些许破音，若需使用MIDI设备，请注意授权。 |
+
+## 开源仓库地址
+
+| 平台 | 链接 |
+| :--- | :--- |
+| Gitee | https://gitee.com/famulan/SiamesePiano |

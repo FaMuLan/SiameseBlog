@@ -38,8 +38,9 @@ description: 国际象棋冒险游戏
 ### 预览版已知问题
 
 - 按键/手势控制在设置界面中无法控制数字滚动框和弹出框；
-- TTS不会播报文档内容，这项功能本身为长期工程，需要等待下一步处理；
-- 经测试，Android平台（国产系统）无法正常调用系统内置TTS，后续预览版会探讨替代方案。
+- TTS不会播报文档内容，这项功能本身为长期工程，计划于下一版本处理；
+- Android平台（已发现有MIUI和HyperOS系统）无法正常调用系统内置TTS，下一预览版会探讨替代方案；
+- 目前Android Webview是唯一不支持SharedArrayBuffer的浏览器，这意味着Android的内置浏览器及其套壳都无法加载Web游戏。请改用Chrome或者Firefox运行。
 
 ## 游戏说明
 
@@ -75,7 +76,16 @@ description: 国际象棋冒险游戏
 | Linux | [SiameseChess-SecondPrototype-Linux.zip](https://static.famulan.uk/siamesechess/SiameseChess-SecondPrototype-Linux.zip) | 45.87 MB | 仅针对x64处理器，兼容性以Ubuntu为准。 |
 | Web | [Web在线游玩](https://static.famulan.uk/siamesechess/index.html) | 115.69 MB | Web版本存在较多的功能限制以及性能问题，适合不方便下载软件的玩家。 |
 
+## 开源仓库地址
+
+| 平台 | 链接 |
+| :--- | :--- |
+| Gitee | https://gitee.com/godothub/siamese_chess |
+| AtomGit | https://atomgit.com/godothub/siamese_chess |
+| Github | https://github.com/godothub/siamese_chess |
+
 ## 致谢
 
-- 作者目前不配备Linux环境，委托给安装有Linux桌面系统的朋友测试后反馈运行正常。感谢网友“程序员毛同学”帮助；
-- 感谢“老蔡-omto”的物质援助，含《疯狂动物城2》中角色“宝伯特”的玩偶，以及《星际火狐》中角色“火狐·麦克劳德”的Amiibo手办，我很喜欢。
+- 感谢“程序员毛同学”协助测试Linux版游戏；
+- 感谢“老蔡-omto”的物质援助，含《疯狂动物城2》中角色“宝伯特”的玩偶，以及《星际火狐》中角色“火狐·麦克劳德”的Amiibo手办，我很喜欢；
+- 感谢“蛙岛小蔡”（这ID是能放的吗）协助测试Godot TTS接口在安卓平台的兼容性，甚至专门制作了个完成度偏高的测试项目。

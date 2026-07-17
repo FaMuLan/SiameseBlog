@@ -41,3 +41,11 @@ description: 国际象棋游戏最初的尝试
 | Android | [SiameseChess-SecondPrototype-Android.apk](https://static.famulan.uk/siamesechess-1.0/SiameseChess-FirstPrototype-Android.apk) | 41.15 MB | 仅针对arm64处理器，签名为debug |
 | Windows | [SiameseChess-SecondPrototype-Windows.zip](https://static.famulan.uk/siamesechess-1.0/SiameseChess-FirstPrototype-Windows.zip) | 38.66 MB  | 仅针对x64处理器，未发现平台相关问题。 |
 | Web| [Web在线游玩](https://static.famulan.uk/siamesechess-1.0/index.html) | 75.57 MB  | Web版本存在较多的功能限制以及性能问题，适合不方便下载软件的玩家。 |
+
+## 开源仓库地址
+
+| 平台 | 链接 |
+| :--- | :--- |
+| Gitee | https://gitee.com/godothub/siamese_chess/tree/first_prototype |
+| AtomGit | https://atomgit.com/godothub/siamese_chess/tree/first_prototype |
+| Github | https://github.com/godothub/siamese_chess/tree/first_prototype |
