@@ -28,8 +28,9 @@ export default defineAstroPaperConfig({
     search: "pagefind",
   },
   socials: [
-    { name: "bilibili", url: "https://space.bilibili.com/30105172"},
-    { name: "weibo",    url: "https://weibo.com/u/1951359417"},
+    { name: "bilibili", url: "https://space.bilibili.com/30105172" },
+    { name: "weibo",    url: "https://weibo.com/u/1951359417" },
+    { name: "itch.io",  url: "https://famulan.itch.io" },
     { name: "github",   url: "https://github.com/FaMuLan/SiameseBlog" },
     { name: "mail",     url: "mailto:fa_mulan@163.com" }
   ],
