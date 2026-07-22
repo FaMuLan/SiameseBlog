@@ -8,7 +8,7 @@ export default defineAstroPaperConfig({
     author: "FaMuLan",
     profile: "undefined",
     ogImage: "piano.jpg",
-    lang: "en",
+    lang: "zh-hans",
     timezone: "Asia/Shanghai",
     dir: "ltr",
   },
