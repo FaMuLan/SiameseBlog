@@ -39,7 +39,7 @@ description: 国际象棋冒险游戏
 
 - 按键/手势控制在设置界面中无法控制数字滚动框和弹出框；
 - TTS不会播报文档内容，这项功能本身为长期工程，计划于下一版本处理；
-- Android平台（已发现有MIUI和HyperOS系统）无法正常调用系统内置TTS，下一预览版会探讨替代方案；
+- Android平台（已发现有MIUI和HyperOS系统）无法正常调用系统内置TTS，现已发布线上计算替代方案，有一定延迟；
 - 目前Android Webview是唯一不支持SharedArrayBuffer的浏览器，这意味着Android的内置浏览器及其套壳都无法加载Web游戏。请改用Chrome或者Firefox运行。
 
 ## 游戏说明
