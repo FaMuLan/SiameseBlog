@@ -1,7 +1,7 @@
 ---
 author: FaMuLan
-pubDatetime: 2026-07-15T15:14:00.000Z
-title: SiameseChess原型2.6预览
+pubDatetime: 2026-08-20T16:00:00.000Z
+title: SiameseChess原型2.6
 slug: siamesechess-2nd-prototype
 featured: true
 tags:
@@ -10,8 +10,6 @@ tags:
   - chess
 description: 国际象棋冒险游戏
 ---	
-
-虽然还未发行，不过新版可以在此处预览。
 
 ![Carnation](@/assets/images/siamesechess_prototype-2.6-cover.png)
 
@@ -28,18 +26,6 @@ description: 国际象棋冒险游戏
 ![SiameseChess 2nd Prototype's screenshot 3](@/assets/images/siamesechess_prototype-2.x_screenshot_3.png)
 ![SiameseChess 2nd Prototype's screenshot 4](@/assets/images/siamesechess_prototype-2.x_screenshot_4.png)
 ![SiameseChess 2nd Prototype's screenshot 5](@/assets/images/siamesechess_prototype-2.x_screenshot_5.png)
-
-## 关于新版
-
-### 改动
-
-该版本着重于无障碍的布局，包含了文本转语音功能、辅助手势、控制台等内容。在此基础上增加了更多的音效。同时，该版本也完善了有关“康乃馨”和“玉兰”的互动，两人都有对应的练习模式供玩家体验。
-
-### 预览版已知问题
-
-- TTS不会播报文档内容，这项功能本身为长期工程，计划于下一版本处理；
-- Android平台（已发现有MIUI和HyperOS系统）无法正常调用系统内置TTS，现已发布线上计算替代方案，有一定延迟；
-- 目前Android Webview是唯一不支持SharedArrayBuffer的浏览器，这意味着Android的内置浏览器及其套壳都无法加载Web游戏。请改用Chrome或者Firefox运行。
 
 ## 游戏说明
 
@@ -94,19 +80,27 @@ description: 国际象棋冒险游戏
 | 指令 | 示例 | 使用场合 | 说明 |
 | :--- | :--- | :--- | :--- |
 | `[着法]` | `Nf3` | 对局过程 | 在对局中直接输入，直接执行相应着法。 |
-| `.[坐标]` | `.e4` | 探索过程 | 控制玩家“莲”移动到指定格子上。 |
+| `to [坐标]` | `to e4` | 探索过程 | 控制玩家“莲”移动到指定格子上。 |
+| `help` |  |  | 打开“帮助”文档。 |
 | `about` |  |  | 打开“关于”文档。 |
-| `+[棋][坐标]` | `+Pe4` | 编辑棋盘 | 添加棋子于指定格子上，棋子使用`K`、`Q`、`R`、`B`、`N`、`P`表示，填写黑方棋子请使用小写。 |
-| `-[坐标]` | `-e4` | 编辑棋盘 | 删除指定格子上的棋子。 |
+| `add [棋] [坐标]` | `add P e4` | 编辑棋盘 | 添加棋子于指定格子上，棋子使用`K`、`Q`、`R`、`B`、`N`、`P`表示，填写黑方棋子请使用小写。 |
+| `remove [坐标]` | `remove e4` | 编辑棋盘 | 删除指定格子上的棋子。 |
 | `first [阵营]`| `first w` | 编辑棋盘 | 设置先手，`b`表示黑，`w`表示白 |
 | `castle [KQkq]`| `castle kq` | 编辑棋盘 | 设置能否易位，含黑白双方长短易位`KQkq`，若可以则写出对应字母，示例表示了白方无法进行易位，而黑方可以进行长短易位。 |
 | `en passant [坐标]` | `en passant c6` | 编辑棋盘 | 设置吃过路兵，走两格兵的后方指定格子，示例中，为了模拟上一步为c7兵走c5，则可以标记身后的c6。 |
 | `fen [局面标记]` | `fen 8/8/8/8/8/8/8/8 w KQkq - 0 1` | 编辑棋盘 | 设置局面的FEN编码，示例为空棋盘 |
-| `y` |  | 编辑棋盘 | 确认编辑完成 |
-| `n` |  | 编辑棋盘 | 取消编辑 |
-| `[设置选项] [值]` | `fullscreen 1` |  | 应用设置 |
-
-## 下载地址（prototype-2.6 预览版）
+| `submit` |  | 编辑棋盘 | 确认编辑完成 |
+| `cancel` |  | 编辑棋盘 | 取消编辑 |
+| `set [设置选项] [值]` | `fullscreen 1` |  | 应用设置 |
+| `open [文件]` | `open history.cafe.json` |  | 打开文档 |
+| `archive` | | | 列出已有文档 |
+| `next focus` | | 阅读文档时 | 下一个焦点 |
+| `prev focus` | | 阅读文档时 | 上一个焦点 |
+| `next page` | | 阅读文档时 | 下一页 |
+| `prev page` | | 阅读文档时 | 上一页 |
+| `close` | | 在多个场合可用 | 关闭 |
+| `next` | | 对话过程中 | 下一个对话 |
+## 下载地址（prototype-2.6）
 
 | 平台 | 链接 | 尺寸 | 备注 |
 | :--- | :--- | :--- | :--- |
